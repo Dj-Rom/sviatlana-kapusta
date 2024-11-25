@@ -2,7 +2,7 @@
 .main_project {
   position: absolute;
   top: calc(3rem + 10rem + 13rem + 6.5rem);
-  height: 52rem;
+  height: 80vw;
   min-width: 80vw;
 }
 .main_project_icon a {
@@ -14,16 +14,15 @@
   }
   img {
     width: 80vw;
-    height: 764px;
+    height: 50vw;
     border-radius: 1rem;
   }
 }
 .main_projects_group {
   position: absolute;
   display: flex;
-  top: calc(3rem + 10rem + 13rem + 6.5rem + 52rem + 3rem);
+  top: calc(3rem + 10rem + 13rem + 6.5rem + 50vw + 6rem);
   min-width: 80vw;
-  height: 661px;
   justify-content: space-between;
   align-content: center;
   align-items: center;
@@ -36,14 +35,14 @@
   }
   img {
     width: calc(40vw - 2.5rem);
-    height: 614px;
+    height: calc(40vw - 2.5rem);
     border-radius: 1rem;
   }
 }
 
 .main_footer {
   position: absolute;
-  top: calc(3rem + 10rem + 13rem + 6.5rem + 52rem + 3rem + 800px);
+  top: calc(3rem + 10rem + 13rem + 6.5rem + 60vw + 3rem + 44vw);
   @include typography_prolect_name;
   width: 80vw;
   display: flex;

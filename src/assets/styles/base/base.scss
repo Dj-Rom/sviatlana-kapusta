@@ -43,3 +43,20 @@
   text-decoration-skip-ink: none;
   color: $text_color;
 }
+
+@mixin typography_about_h {
+  color: #000;
+  font-family: Inter;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@mixin typography_about_text {
+  color: #000;
+  font-family: Inter;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

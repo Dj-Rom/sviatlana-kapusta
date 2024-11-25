@@ -6,6 +6,13 @@
 }
 
 .App {
+  position: relative;
   width: 80vw;
   margin: 0 auto;
+}
+
+.container {
+  position: absolute;
+  top: 10rem;
+  width: 100%;
 }

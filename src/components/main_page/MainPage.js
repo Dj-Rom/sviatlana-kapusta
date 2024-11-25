@@ -19,8 +19,7 @@ const MainPage = () => {
   }, []);
 
   return (
-    <>
-      <Navi />
+    <main className={styles.main_page_main}>
       <Intro />
       <SocialMedia />
       <section className={styles.main_project}>
@@ -31,18 +30,18 @@ const MainPage = () => {
         <ProjectView
           className={styles.main_project_icon2}
           {...projectsList}
-          class={styles.any_projects}
+          className={styles.any_projects}
         />
         <ProjectView
           className={styles.main_project_icon2}
           {...projectsList}
-          class={styles.any_projects}
+          className={styles.any_projects}
         />
       </div>
-      <footer class={styles.main_footer}>
+      <footer className={styles.main_footer}>
         <span>&copy; 2024 Dj_Rom and Sviatlana Kapusta. Poland</span>
       </footer>
-    </>
+    </main>
   );
 };
 

@@ -1,7 +1,8 @@
 @import './../base/base.scss';
+
 .main_project {
   position: absolute;
-  top: calc(3rem + 10rem + 13rem + 6.5rem);
+  top: calc(3rem + 10rem + 8rem + 6.5rem);
   height: 80vw;
   min-width: 80vw;
 }
@@ -21,7 +22,7 @@
 .main_projects_group {
   position: absolute;
   display: flex;
-  top: calc(3rem + 10rem + 13rem + 6.5rem + 50vw + 6rem);
+  top: calc(3rem + 10rem + 8rem + 6.5rem + 50vw + 6rem);
   min-width: 80vw;
   justify-content: space-between;
   align-content: center;

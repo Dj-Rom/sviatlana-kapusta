@@ -5,18 +5,18 @@ import styles from './../../assets/styles/components/navi.module.scss';
 const Navi = () => {
   return (
     <nav className={styles.navi_nav}>
-      <Link className={styles.navi_main} to="/sviatlana-kapusta/build/">
+      <Link className={styles.navi_main} to="/">
         Sviatlana Kapusta
       </Link>
       <ul className={styles.navi_ul}>
         <li className={styles.navi_li_link}>
-          <Link to="/sviatlana-kapusta/build/projects">Projects</Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li className={styles.navi_li_link}>
-          <Link to="/sviatlana-kapusta/build/resume">Resume</Link>
+          <Link to="/resume">Resume</Link>
         </li>
         <li className={styles.navi_li_link}>
-          <Link to="/sviatlana-kapusta/build/about-me">About me</Link>
+          <Link to="/about-me">About me</Link>
         </li>
       </ul>
     </nav>

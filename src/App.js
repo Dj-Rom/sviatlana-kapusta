@@ -11,15 +11,9 @@ function App() {
       <Navi />
       <div className="container">
         <Routes>
-          <Route path="sviatlana-kapusta/build/" element={<MainPage />} />
-          <Route
-            path="sviatlana-kapusta/build/about-me"
-            element={<AboutPage />}
-          />
-          <Route
-            path="sviatlana-kapusta/build/resume"
-            element={<ResumePage />}
-          />
+          <Route path="/" element={<MainPage />} />
+          <Route path="/about-me" element={<AboutPage />} />
+          <Route path="/resume" element={<ResumePage />} />
           <Route path="*" element={<p>ERROR: Page not found!</p>} />
         </Routes>
       </div>

@@ -27,16 +27,8 @@ const MainPage = () => {
       </section>
 
       <div className={styles.main_projects_group}>
-        <ProjectView
-          className={styles.main_project_icon2}
-          {...projectsList}
-          className={styles.any_projects}
-        />
-        <ProjectView
-          className={styles.main_project_icon2}
-          {...projectsList}
-          className={styles.any_projects}
-        />
+        <ProjectView className={styles.main_project_icon2} {...projectsList} />
+        <ProjectView className={styles.main_project_icon2} {...projectsList} />
       </div>
       <footer className={styles.main_footer}>
         <span>&copy; 2024 Dj_Rom and Sviatlana Kapusta. Poland</span>

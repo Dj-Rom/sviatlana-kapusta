@@ -1,0 +1,10 @@
+.social_links {
+  position: absolute;
+  top: calc(3rem + 10rem + 13rem);
+  margin: 0;
+  .social_links_icon {
+    width: 48px !important;
+    height: 48px !important;
+    margin-right: 5px;
+  }
+}

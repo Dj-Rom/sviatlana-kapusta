@@ -1,0 +1,51 @@
+@import './../base/base.scss';
+.main_project {
+  position: absolute;
+  top: calc(3rem + 10rem + 13rem + 6.5rem);
+  height: 52rem;
+  min-width: 80vw;
+}
+.main_project_icon a {
+  text-decoration: none;
+  h2 {
+    margin-top: 1.5rem;
+    @include typography_prolect_name;
+    text-align: left;
+  }
+  img {
+    width: 80vw;
+    height: 764px;
+    border-radius: 1rem;
+  }
+}
+.main_projects_group {
+  position: absolute;
+  display: flex;
+  top: calc(3rem + 10rem + 13rem + 6.5rem + 52rem + 3rem);
+  min-width: 80vw;
+  height: 661px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.main_project_icon2 a {
+  text-decoration: none;
+  h2 {
+    @include typography_prolect_name;
+    text-align: left;
+  }
+  img {
+    width: calc(40vw - 2.5rem);
+    height: 614px;
+    border-radius: 1rem;
+  }
+}
+
+.main_footer {
+  position: absolute;
+  top: calc(3rem + 10rem + 13rem + 6.5rem + 52rem + 3rem + 800px);
+  @include typography_prolect_name;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+}

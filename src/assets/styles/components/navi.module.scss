@@ -1,0 +1,36 @@
+@import './../base/base.scss';
+.navi_nav {
+  position: absolute;
+  display: flex;
+  height: 5rem;
+  width: 100vw;
+  margin-left: -10vw;
+  align-items: center;
+  border-bottom: $navi_border;
+
+  li a {
+    @include typography_links;
+    text-decoration: none;
+  }
+}
+
+.navi_ul {
+  position: absolute;
+  right: 8vh;
+
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navi_main {
+  position: absolute;
+  left: 10vw;
+  text-decoration: none;
+  @include typography_name_links;
+}
+
+.navi_li_link {
+  padding: 0;
+  margin-right: 3.2vw;
+}

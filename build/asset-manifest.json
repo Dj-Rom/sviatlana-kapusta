@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.4059b0fe.css",
-    "main.js": "/static/js/main.018714af.js",
-    "static/js/453.c1bf065a.chunk.js": "/static/js/453.c1bf065a.chunk.js",
-    "index.html": "/index.html",
-    "main.4059b0fe.css.map": "/static/css/main.4059b0fe.css.map",
-    "main.018714af.js.map": "/static/js/main.018714af.js.map",
-    "453.c1bf065a.chunk.js.map": "/static/js/453.c1bf065a.chunk.js.map"
+    "main.css": "/sviatlana-kapusta/build/static/css/main.4059b0fe.css",
+    "main.js": "/sviatlana-kapusta/build/static/js/main.bbcec388.js",
+    "static/js/453.c1bf065a.chunk.js": "/sviatlana-kapusta/build/static/js/453.c1bf065a.chunk.js",
+    "index.html": "/sviatlana-kapusta/build/index.html",
+    "main.4059b0fe.css.map": "/sviatlana-kapusta/build/static/css/main.4059b0fe.css.map",
+    "main.bbcec388.js.map": "/sviatlana-kapusta/build/static/js/main.bbcec388.js.map",
+    "453.c1bf065a.chunk.js.map": "/sviatlana-kapusta/build/static/js/453.c1bf065a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4059b0fe.css",
-    "static/js/main.018714af.js"
+    "static/js/main.bbcec388.js"
   ]
 }

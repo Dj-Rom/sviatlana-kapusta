@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navi from '../navi/Navi';
 import Intro from './intro/Intro';
 import ProjectView from './view_project/ProjectView';
@@ -7,6 +7,17 @@ import { projectsList } from '../../data/projectsList';
 import SocialMedia from './social_media/SocialMedia';
 
 const MainPage = () => {
+  useEffect(() => {
+    const interval = setInterval(() => {
+      document.title =
+        document.title === 'Sviatlana Kapusta'
+          ? 'UI/UX designer'
+          : 'Sviatlana Kapusta';
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
       <Navi />
@@ -29,9 +40,8 @@ const MainPage = () => {
         />
       </div>
       <footer class={styles.main_footer}>
-  <span>&copy; 2024 Dj_Rom and Sviatlana Kapusta. Poland</span>
-</footer>
-
+        <span>&copy; 2024 Dj_Rom and Sviatlana Kapusta. Poland</span>
+      </footer>
     </>
   );
 };
